@@ -1,0 +1,70 @@
+* {
+  box-sizing: border-box;
+  font-family: "Comic Sans MS", cursive, sans-serif;
+}
+h1 {
+  margin-bottom: 15px;
+  text-align: center;
+}
+
+.row {
+  width: 100%;
+}
+.row>div{
+    background-color: grey;
+    border: 1px solid black;
+    margin: 5px 5px 5px 5px;
+    padding: 5px 0px 5px 5px;
+    text-align: left;
+
+
+}
+.it1{
+    border: 1px solid black;
+    width: 25%;
+    padding: 5px;
+    background-color: pink;
+    text-align: center;
+    font-weight: bold;
+    margin-bottom: 5px;
+    float: right;
+    overflow: none;
+    position: relative;
+    margin-right: 0;
+}
+.it2{
+    border: 1px solid black;
+    padding: 5px;
+    background-color: red;
+    color: white;
+    text-align: center;
+    width: 25%;
+    font-weight: bold;
+    margin-bottom: 5px;
+
+    float: right;
+    overflow: none;
+    position: relative;
+    margin-right: 0;
+}
+.it3{
+    border: 1px solid black;
+    border-right: 0;
+    padding: 5px 5px 5px 5px;
+    background-color: yellow;
+    color: black;
+    text-align: center;
+    width: 25%;
+    font-weight: bold;
+    margin-bottom: 5px;
+    float: right;
+    overflow: none;
+    position: relative;
+    margin-right: 0;
+}
+a{
+  color: blue;
+}
+nav{
+  background-color: black;
+}

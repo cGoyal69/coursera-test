@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment solution of module 2</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <style>
+        @media (min-width: 992px) {
+        .col-34,.col-35{
+            float: right;
+            width: 32%;
+        }
+        }
+        /********** Medium devices only **********/
+        @media (min-width: 768px) and (max-width: 992px) {
+        .col-34{
+            float: right;
+            border: 1px solid green;
+        }
+        .col-35 {
+            float: right;
+            width: 97%;
+        }
+        .col-34 
+        {
+            width: 48%;
+            
+        }
+
+        }
+        .row{
+            margin-right: 1%;
+
+            margin-left: 1%;
+        }
+        .nav-item{
+            background-color: black;
+            color: white;
+        }
+        .navbar-brand{
+            background-color: black;
+            color: white;
+        }
+        button, span{
+            background-color: white;
+        }
+    </style>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-dark">
+        <a class="navbar-brand" href="index.html">FOOD, LLC</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+          <div class="navbar-nav">
+            <a class="nav-item nav-link" href="#it1">Chicken</a>
+            <a class="nav-item nav-link" href="#it2">Beef</a>
+            <a class="nav-item nav-link" href="#it3">Sushi</a>
+          </div>
+        </div>
+    </nav>
+    <h1>
+        Our Menu
+    </h1>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-34">
+                <div class="it1">
+                    Chicken
+                </div><br><br>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maxime illum facere ipsa natus dolores consequatur error fugiat, totam fuga, accusamus officiis suscipit consequuntur. Vitae temporibus deleniti non repellendus, quod eaque.<br>
+                <a href="index.html"> Back to Top</a>
+            </div>
+            <div class="col-34">
+                <div class="it2">
+                    Beef
+                </div><br><br>
+                 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maxime illum facere ipsa natus dolores consequatur error fugiat, totam fuga, accusamus officiis suscipit consequuntur. Vitae temporibus deleniti non repellendus, quod eaque.<br>
+                 <a href="index.html"> Back to Top</a>
+            </div>
+            <div class="col-35">
+                <div class="it3">
+                    Sushi
+                </div><br><br>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maxime illum facere ipsa natus dolores consequatur error fugiat, totam fuga, accusamus officiis suscipit consequuntur. Vitae temporibus deleniti non repellendus, quod eaque.<br>
+                <a href="index.html"> Back to Top</a>
+            </div>
+        </div>
+    </div>
+    
+</body>
+</html>
